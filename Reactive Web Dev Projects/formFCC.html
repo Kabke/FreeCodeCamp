@@ -10,9 +10,28 @@
     </head>
 
     <body>
-        <div>
+        <header>
             <h1 id="title">Awesome Form Title</h1>
-        </div>
+            <p id="description"></p>
+        </header>
+
+        <form id=survey-form>
+            <div class="formQuestion" id="name">
+                <label for=id="name-label"></label>
+            </div>
+
+            <div class="formQuestion" id="number">
+                <label id="number-label"></label>
+            </div> <!-- Must validate number-->
+
+            <div class="formQuestion" id="email">
+                <label id="email-label"></label>
+            </div> <!--Must validate email-->
+            
+            <div class="formQuestion" id="dropdown">
+                <label id="dropdown-label"></label>
+            </div> <!--Must validate email-->
+        </form>
     </body>
 
 </html>
